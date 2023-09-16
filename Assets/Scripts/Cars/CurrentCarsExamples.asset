@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 991dc65cd556d9444853557102820f84, type: 3}
+  m_Name: CurrentCarsExamples
+  m_EditorClassIdentifier: 
+  cars:
+  - IsStartCar: 1
+    Name: Sport Car
+    CarPrice: 0
+    GarageCar: {fileID: -1740130042901261246, guid: 2c48140064e50e54cab90cb64ce71959, type: 3}
+    GameCar: {fileID: -1740130042901261246, guid: 682ace8af56dc4544aff42dbc1043f56, type: 3}
+    CarModifications:
+    - Name: Small Spoiler
+      Place: 0
+      Type: 1
+      Price: 3000
+      IsStartModification: 0
+    - Name: Sport Spoiler
+      Place: 0
+      Type: 2
+      Price: 5000
+      IsStartModification: 0
+    - Name: No Spoiler
+      Place: 0
+      Type: 0
+      Price: 0
+      IsStartModification: 1
+  - IsStartCar: 0
+    Name: Police Car
+    CarPrice: 4000
+    GarageCar: {fileID: -6940354566836386074, guid: e919d9a0f12194f48ac36e35aebf89b4, type: 3}
+    GameCar: {fileID: -6940354566836386074, guid: fa5a00bfb57003548a141e457e4394b3, type: 3}
+    CarModifications:
+    - Name: Police Lights
+      Place: 1
+      Type: 1
+      Price: 0
+      IsStartModification: 1
+    - Name: no Police Lights
+      Place: 1
+      Type: 0
+      Price: 0
+      IsStartModification: 0
+    - Name: Small Spoiler
+      Place: 0
+      Type: 1
+      Price: 3000
+      IsStartModification: 0
+    - Name: Sport Spoiler
+      Place: 0
+      Type: 2
+      Price: 5000
+      IsStartModification: 0
+    - Name: No Spoiler
+      Place: 0
+      Type: 0
+      Price: 0
+      IsStartModification: 1
